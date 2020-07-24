@@ -1,10 +1,6 @@
 name: Ingest scc-covid data
 
 on:
-  push:
-    branches:
-      - trunk
-
   schedule:
     # See table of scheduled times in the README.  Times here are UTC.
     - cron: '0 6,18 * * *'
@@ -21,3 +17,8 @@ jobs:
     - name: ingest
       run: |
         scripts/fetch-datasets.bash raw-datasets
+        git config --global user.email "tonytung@merly.org"
+        git config --global user.name "scc covid timeseries bot"
+        git add raw-datasets
+        git commit -m "Fetched new datasets"
+        git push https://${{ secrets.GH_TOKEN }}@github.com/ttung/scc-covid-timeseries.git HEAD:trunk
