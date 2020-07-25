@@ -88,7 +88,7 @@ def build_dataset(
 
     # timestamp and fields marked as dims (i.e., zipcode) are interpreted as one dimensional coordinate variable along
     # the same dimension as it’s name.
-    coords['time'] = [timestamp for timestamp in raw_data.keys()]
+    coords['time'] = sorted([timestamp for timestamp in raw_data.keys()])
     for dim_field_name in dim_field_names:
         coords[dim_field_name] = sorted(set(
             row[dim_field_name]
