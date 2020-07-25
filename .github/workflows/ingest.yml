@@ -14,6 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        pip install numpy scipy xarray
     - name: ingest
       run: |
         scripts/fetch-datasets.bash raw-datasets
@@ -22,3 +29,21 @@ jobs:
         git add raw-datasets
         git commit -m "Fetched new datasets"
         git push https://${{ secrets.GH_TOKEN }}@github.com/ttung/scc-covid-timeseries.git HEAD:trunk
+    - name: build netcdf files
+      run: |
+        mkdir -p netcdf
+        python scripts/compile-dataset.py --path raw-datasets/cases-by-age-group --dim age_group --output netcdf/cases-by-age-group.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/cases-by-city --dim city --coord-to-dim geo_id:city --output netcdf/cases-by-city.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/cases-by-ethnicity --dim race_eth --output netcdf/cases-by-ethnicity.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/cases-by-gender --dim gender --output netcdf/cases-by-gender.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/cases-by-transmission-method --dim category --output netcdf/cases-by-transmission-method.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/cases-by-zip --dim zipcode --output netcdf/cases-by-zip.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/deaths-by-age-group --dim age_group --output netcdf/deaths-by-age-group.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/deaths-by-comorbidity --dim comorbidities --output netcdf/deaths-by-comorbidities.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/deaths-by-gender --dim gender --output netcdf/deaths-by-gender.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/deaths-by-race-ethnicity --dim race_eth --output netcdf/deaths-by-race-ethnicity.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/tests-by-healthcare-system --dim healthcare_system --coord-to-dim number_of_people_served:healthcare_system --output netcdf/tests-by-healthcare-system.netcdf
+        python scripts/compile-dataset.py --path raw-datasets/tests-by-popup --dim healthcare_system --coord-to-dim number_of_people_served:healthcare_system --output netcdf/tests-by-popup.netcdf
+        git add netcdf
+        git commit -m "Fetched new datasets and compiled new netcdfs" --amend
+        git push -f https://${{ secrets.GH_TOKEN }}@github.com/ttung/scc-covid-timeseries.git HEAD:trunk
