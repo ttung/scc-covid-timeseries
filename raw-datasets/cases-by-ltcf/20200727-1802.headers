@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 27 Jul 2020 18:02:51 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTQ4M18yXzI0OVpCRm9sb0VpaVlFa0N6M2tpc1c4VlJpcTU0---gziphWx19XJwXmm9KZ_SEnAN5yYW-ac--gzip--gzip"
+X-SODA2-Fields: ["fac_type","facility","most_recent","staff","resident"]
+X-SODA2-Types: ["text","text","text","text","text"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Sun, 26 Jul 2020 22:02:48 GMT
+X-SODA2-Secondary-Last-Modified: Sun, 26 Jul 2020 22:02:48 GMT
+Last-Modified: Sun, 26 Jul 2020 22:02:48 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: a720f1c1f1bdb9474e02121bd7f925a7
+
