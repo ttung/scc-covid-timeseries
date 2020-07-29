@@ -1,0 +1,14 @@
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Wed, 29 Jul 2020 18:03:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+WWW-Authenticate: Basic realm="Socrata API Server"
+X-Error-Message: You must be logged in to access this resource
+Cache-Control: private, no-cache, must-revalidate
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+X-Socrata-RequestId: 4e3ed916401823c50a8bf758ceecc9b4
+
