@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 05 Sep 2020 18:03:56 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTQ3NV8xXzU0eEtacFA0ZkJTQVlMcVE1YzZ2d0lMLTcwWGRZ---gzipPUms7Mro8PioLfC2ZBWddD0Rs5I--gzip--gzip"
+X-SODA2-Fields: ["race_eth","counts","percent","rates","percent_pop"]
+X-SODA2-Types: ["text","number","number","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Fri, 04 Sep 2020 22:01:26 GMT
+X-SODA2-Secondary-Last-Modified: Fri, 04 Sep 2020 22:01:26 GMT
+Last-Modified: Fri, 04 Sep 2020 22:01:26 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: f48dc22c5f5e55f6c5b742e7c01f1e65
+
