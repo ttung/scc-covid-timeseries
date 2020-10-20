@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 20 Oct 2020 06:05:31 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTQ4MV8xXzk4c3dFcnp1NEhzUGI1bTc2S0NSbWZ2VkNiZlNZ---gzipM4TLfUsMjeKpw-JmgwB__MtMa8M--gzip--gzip"
+X-SODA2-Fields: ["facility_type","cases","hospitalizations","deaths","facility_count"]
+X-SODA2-Types: ["text","number","number","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Mon, 19 Oct 2020 23:00:50 GMT
+X-SODA2-Secondary-Last-Modified: Mon, 19 Oct 2020 23:00:50 GMT
+Last-Modified: Mon, 19 Oct 2020 23:00:50 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 0db07ea92a0966e4a3cde6850d7396bb
+
