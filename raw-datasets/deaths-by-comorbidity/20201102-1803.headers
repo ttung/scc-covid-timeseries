@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 02 Nov 2020 18:03:27 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTE3OF8xXzExMXZYV0JEcWN4RC1jcVJlUnBJRHhKU0RCVXJ1dw---gziqQz5QUCdczxIM-cdROmiX4ZWmxt--gzip--gzip"
+X-SODA2-Fields: ["comorbidities","counts","percent"]
+X-SODA2-Types: ["text","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Mon, 02 Nov 2020 00:01:02 GMT
+X-SODA2-Secondary-Last-Modified: Mon, 02 Nov 2020 00:01:02 GMT
+Last-Modified: Mon, 02 Nov 2020 00:01:02 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 3c3dd1801f4c08f51475f5476df89f5f
+
