@@ -5,7 +5,7 @@ dir="${1:?A path to the raw-datasets directory must be provided as the first arg
 now=$(date +%Y%m%d-%H%M)
 
 function fetch() {
-    curl -o "${dir}"/"${SUBDIR}"/"${now}".csv -D "${dir}"/"${SUBDIR}"/"${now}".headers "https://data.sccgov.org/resource/${IDENTIFIER}.csv"
+    curl --retry 5 -o "${dir}"/"${SUBDIR}"/"${now}".csv -D "${dir}"/"${SUBDIR}"/"${now}".headers "https://data.sccgov.org/resource/${IDENTIFIER}.csv"
 }
 
 SUBDIR=cases-by-city			IDENTIFIER=59wk-iusg	fetch
