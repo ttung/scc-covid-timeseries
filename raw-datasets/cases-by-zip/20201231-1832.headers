@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 31 Dec 2020 18:32:09 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTE3Nl8xXzE3M2lmVUtqQmI4b2VMZDVRRnVQTXdiNjVUVG9BSQ---gzir-6sZUDxfLIhWXppA4PH9TKjEiB--gzip--gzip"
+X-SODA2-Fields: ["zipcode","cases","population","rate"]
+X-SODA2-Types: ["text","number","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Thu, 31 Dec 2020 00:00:36 GMT
+X-SODA2-Secondary-Last-Modified: Thu, 31 Dec 2020 00:00:36 GMT
+Last-Modified: Thu, 31 Dec 2020 00:00:36 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 3a170bd35ab8598f3deef31d68ed1e17
+
