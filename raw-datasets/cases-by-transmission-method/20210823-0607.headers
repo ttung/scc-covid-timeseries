@@ -1,0 +1,33 @@
+HTTP/1.1 500 Server Error
+Server: nginx
+Date: Mon, 23 Aug 2021 06:08:26 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 62
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 64e6b08de13d954ea48ca6484dd92281
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 23 Aug 2021 06:08:28 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTE2NF8xXzMzNlhBaHFpQUMxdTBLZ3haTXdhSFJodE5BOE5jWQ---gziu1anxdUNEc1zZn6sAkDZ82tRmJg--gzip--gzip"
+X-SODA2-Fields: ["category","counts","percent"]
+X-SODA2-Types: ["text","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Sat, 21 Aug 2021 00:03:36 GMT
+X-SODA2-Secondary-Last-Modified: Sat, 21 Aug 2021 00:03:36 GMT
+Last-Modified: Sat, 21 Aug 2021 00:03:36 GMT
+Vary: Accept-Encoding
+Age: 2
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: ce353b26dcf652322971a54f36066217
+
