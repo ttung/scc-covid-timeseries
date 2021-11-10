@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 10 Nov 2021 06:08:24 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTE3NV8xXzMwMVFRVWZQYmx0S2JpeUpqaFBvQ1hUdmVZRVFySQ---gzikcD1pzV2iIvnzS3tXMy1drWgGgJ--gzip--gzip"
+X-SODA2-Fields: ["geo_id","city","cases","population","rate"]
+X-SODA2-Types: ["number","text","number","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Sat, 06 Nov 2021 00:07:24 GMT
+X-SODA2-Secondary-Last-Modified: Sat, 06 Nov 2021 00:07:24 GMT
+Last-Modified: Sat, 06 Nov 2021 00:07:24 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 2b15ebe5aa185d60257e12a1fea43c1e
+
