@@ -6,8 +6,7 @@ on:
     - cron: '0 6,18 * * *'
 
   # Manually triggered using `./bin/trigger ingest`
-  repository_dispatch:
-    types: ingest
+  workflow_dispatch:
 
 jobs:
   ingest:
