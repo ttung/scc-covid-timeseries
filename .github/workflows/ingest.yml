@@ -20,7 +20,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        pip install numpy scipy xarray
+        pip install numpy packaging scipy xarray
     - name: ingest
       run: |
         scripts/fetch-datasets.bash raw-datasets
