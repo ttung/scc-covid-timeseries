@@ -1,0 +1,46 @@
+HTTP/1.1 500 Server Error
+Server: nginx
+Date: Thu, 31 Mar 2022 06:11:07 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 20
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 4ee0adbe6e6a165509d346de6e1660b0
+
+HTTP/1.1 500 Server Error
+Server: nginx
+Date: Thu, 31 Mar 2022 06:11:18 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 20
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: a7e51b50aa563fda9e9d82aa04e1f5ce
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 31 Mar 2022 06:11:20 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTQ3MF8xXzM2ODlxNHpHZkdNOFBMcDE1RXllSHlvYzJ4bnJJbw---gziqpA44AxY57RF3lPUq5XNLze1LFO--gzip--gzip"
+X-SODA2-Fields: ["gender","counts","percent","rates"]
+X-SODA2-Types: ["text","number","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Sat, 26 Mar 2022 02:04:16 GMT
+X-SODA2-Secondary-Last-Modified: Sat, 26 Mar 2022 02:04:16 GMT
+Last-Modified: Sat, 26 Mar 2022 02:04:16 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 9136f79d52fdecd9c7b4e0ff4bfcf81f
+
