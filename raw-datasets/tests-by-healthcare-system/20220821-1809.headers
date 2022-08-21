@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 21 Aug 2022 18:10:04 GMT
+Content-Type: text/csv; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+ETag: W/"Y2hhcmxpZS45NTMyOF8xXzIzNFNOQ1c1Vnp0NEd2cEJDTHViSXMzMjMwNFd1OA---gziqbcKSmM8_zkUVXhCjVT7R0psqFu--gzip--gzip"
+X-SODA2-Fields: ["healthcare_system","number_of_people_served","cumulative_number_of_tests","number_of_tests_in_the_past","daily_average_count_in_the","daily_average_rate_in_the"]
+X-SODA2-Types: ["text","number","number","number","number","number"]
+X-SODA2-Data-Out-Of-Date: false
+X-SODA2-Truth-Last-Modified: Fri, 28 May 2021 21:43:40 GMT
+X-SODA2-Secondary-Last-Modified: Fri, 28 May 2021 21:43:40 GMT
+Last-Modified: Fri, 28 May 2021 21:43:40 GMT
+Vary: Accept-Encoding
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: dc0c383e426e14c98a9059a8a7604bdf
+
