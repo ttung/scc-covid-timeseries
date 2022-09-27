@@ -1,0 +1,78 @@
+HTTP/1.1 503 Service Unavailable
+Server: nginx
+Date: Tue, 27 Sep 2022 18:18:02 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: ec293865fda05ede9e46826625da359b
+
+HTTP/1.1 503 Service Unavailable
+Server: nginx
+Date: Tue, 27 Sep 2022 18:18:03 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: e5cd763d6846c44d31ef1e40fad3e259
+
+HTTP/1.1 503 Service Unavailable
+Server: nginx
+Date: Tue, 27 Sep 2022 18:18:05 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 088b5fa5fdb1f777658e8d38fdfd5f0e
+
+HTTP/1.1 503 Service Unavailable
+Server: nginx
+Date: Tue, 27 Sep 2022 18:18:09 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: d0d6b7137ea4d3842fe5b86a51dcf7f8
+
+HTTP/1.1 503 Service Unavailable
+Server: nginx
+Date: Tue, 27 Sep 2022 18:18:18 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 2
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: 0f1502ca65eaa7c8d7dec89d836f412b
+
+HTTP/1.1 503 Service Unavailable
+Server: nginx
+Date: Tue, 27 Sep 2022 18:18:34 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-cache, must-revalidate
+Age: 0
+X-Socrata-Region: aws-us-east-1-fedramp-prod
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Socrata-RequestId: b1e915128a0479ee470155bbdcf62315
+
